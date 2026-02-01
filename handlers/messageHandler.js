@@ -11,9 +11,9 @@ const userStates = {};
 function getMainMenu() {
     return `🐄 *CHATBOT PAKAN TERNAK SEYEGAN* 🐓
 
-Halo Bapak/Ibu! 👋
+Halo! 👋
 
-Saya adalah asisten yang siap membantu Bapak/Ibu tentang pakan ternak.
+Saya adalah asisten yang siap membantu tentang pakan ternak.
 
 *SILAKAN PILIH:*
 
@@ -49,7 +49,7 @@ Ketik *menu* kapan saja untuk kembali ke sini`;
 function getMenuKategoriPakan() {
     return `🌾 *JENIS PAKAN TERNAK*
 
-Bapak/Ibu mau lihat pakan yang mana?
+Pakan mana yang ingin dilihat?
 
 1️⃣ *Rumput-rumputan*
      Rumput Odot, Gajah, Raja, dll
@@ -69,7 +69,7 @@ Ketik *menu* untuk kembali`;
 function getMenuRumput() {
     return `🌱 *MACAM-MACAM RUMPUT PAKAN*
 
-Pilih rumput yang ingin Bapak/Ibu ketahui:
+Pilih rumput yang ingin diketahui:
 
 1️⃣ Rumput Odot (batang kecil, daun lembut)
 2️⃣ Rumput Gajah (batang besar, tumbuh cepat)
@@ -88,7 +88,7 @@ Ketik *menu* untuk kembali`;
 function getMenuLimbahPertanian() {
     return `🌾 *SISA HASIL PANEN UNTUK PAKAN*
 
-Pilih yang ingin Bapak/Ibu ketahui:
+Pilih yang ingin diketahui:
 
 1️⃣ *Jerami Padi*
      Batang padi setelah panen
@@ -131,7 +131,7 @@ Ketik *menu* untuk kembali`;
 function getMenuStrategiMusim() {
     return `☀️🌧️ *PAKAN SESUAI MUSIM*
 
-Pilih yang ingin Bapak/Ibu ketahui:
+Pilih yang ingin diketahui:
 
 1️⃣ *Pakan untuk Musim Hujan*
      Rumput melimpah, cara menyimpan
@@ -151,7 +151,7 @@ Ketik *menu* untuk kembali`;
 // Format informasi rumput detail
 function getInfoRumput(jenis) {
     const rumput = pakanData.rumput[jenis];
-    if (!rumput) return '🙏 Maaf Bapak/Ibu, data rumput ini belum tersedia.';
+    if (!rumput) return '🙏 Maaf, data rumput ini belum tersedia.';
     
     let response = `🌱 *${rumput.nama.toUpperCase()}*\n\n`;
     response += `📝 *Deskripsi:*\n${rumput.deskripsi}\n\n`;
@@ -198,7 +198,7 @@ function getInfoRumput(jenis) {
 // Format informasi limbah pertanian
 function getInfoLimbahPertanian(jenis) {
     const limbah = pakanData.limbahPertanian[jenis];
-    if (!limbah) return '🙏 Maaf Bapak/Ibu, data jerami ini belum tersedia.';
+    if (!limbah) return '🙏 Maaf, data jerami ini belum tersedia.';
     
     let response = `🌾 *${limbah.nama.toUpperCase()}*\n\n`;
     response += `📝 *Deskripsi:*\n${limbah.deskripsi}\n\n`;
@@ -269,7 +269,7 @@ function getInfoAmpasTahu() {
 // Format cara pengolahan
 function getInfoPengolahan(jenis) {
     const data = fermentasiData[jenis];
-    if (!data) return '🙏 Maaf Bapak/Ibu, data pengolahan ini belum tersedia.';
+    if (!data) return '🙏 Maaf, data pengolahan ini belum tersedia.';
     
     let response = `🔄 *${data.nama.toUpperCase()}*\n\n`;
     response += `📝 *Deskripsi:*\n${data.deskripsi}\n\n`;
@@ -317,7 +317,7 @@ function getInfoStrategiMusim(jenis) {
     if (jenis === 'hujan') data = strategiMusimData.musimHujan;
     else if (jenis === 'kemarau') data = strategiMusimData.musimKemarau;
     else if (jenis === 'kombinasi') data = strategiMusimData.strategiKombinasi;
-    else return '🙏 Maaf Bapak/Ibu, data strategi musim ini belum tersedia.';
+    else return '🙏 Maaf, data strategi musim ini belum tersedia.';
     
     let response = `${jenis === 'hujan' ? '🌧️' : jenis === 'kemarau' ? '☀️' : '📅'} *${data.nama.toUpperCase()}*\n\n`;
     
@@ -385,7 +385,7 @@ function getInfoStrategiMusim(jenis) {
 // Fungsi untuk mendapatkan harga pakan (dari file lama, bisa disesuaikan)
 function getHargaPakan(jenisTernak) {
     const data = hargaData.hargaPakan[jenisTernak];
-    if (!data) return '🙏 Maaf Bapak/Ibu, data harga pakan ini belum tersedia.';
+    if (!data) return '🙏 Maaf, data harga pakan ini belum tersedia.';
     
     let response = `💰 *HARGA PAKAN ${jenisTernak.toUpperCase()}*\n`;
     response += `_Update: ${hargaData.updateTerakhir}_\n\n`;
@@ -459,14 +459,14 @@ function hitungPakan(jenisTernak, jumlah, beratRataRata) {
     
     response += `\n━━━━━━━━━━━━━━━━━━━━━━━━\n`;
     response += `💡 *Catatan Penting:*\n`;
-    response += `Hitungan ini adalah perkiraan. Bisa disesuaikan dengan kondisi ternak Bapak/Ibu.\n\n`;
+    response += `Hitungan ini adalah perkiraan. Bisa disesuaikan dengan kondisi ternak.\n\n`;
     response += `Ketik *menu* untuk kembali`;
     return response;
 }
 
 // Format menu jenis ternak untuk hitung dan harga
 function getMenuTernak() {
-    return `Bapak/Ibu punya ternak apa?
+    return `Punya ternak apa?
 
 1️⃣ *Sapi*
 2️⃣ *Kambing*
@@ -481,7 +481,7 @@ Ketik *menu* untuk kembali`;
 function getMenuTips() {
     return `📚 *TIPS MEMBERI PAKAN TERNAK*
 
-Pilih yang ingin Bapak/Ibu pelajari:
+Pilih yang ingin dipelajari:
 
 1️⃣ *Jadwal Memberi Pakan*
      Kapan waktu yang tepat memberi makan
@@ -693,7 +693,7 @@ async function handleMessage(text, userId) {
             else return '🙏 Pilihan tidak tersedia. ' + getMenuTernak();
             
             state.step = 2;
-            return `Berapa jumlah ${state.data.jenisTernak} yang Bapak/Ibu punya?\n\n📝 Ketik angkanya saja\nContoh: *5*`;
+            return `Berapa jumlah ${state.data.jenisTernak} yang dimiliki?\n\n📝 Ketik angkanya saja\nContoh: *5*`;
         }
         else if (state.step === 2) {
             const jumlah = parseInt(input);
@@ -704,9 +704,9 @@ async function handleMessage(text, userId) {
             state.step = 3;
             
             if (state.data.jenisTernak === 'ayam') {
-                return `Berapa kira-kira berat ayam Bapak/Ibu? (dalam kg)\n\n📝 Ketik angkanya saja\nContoh:\n• Ketik *0.3* untuk ayam kecil (300 gram)\n• Ketik *1.5* untuk ayam dewasa`;
+                return `Berapa kira-kira berat ayam? (dalam kg)\n\n📝 Ketik angkanya saja\nContoh:\n• Ketik *0.3* untuk ayam kecil (300 gram)\n• Ketik *1.5* untuk ayam dewasa`;
             } else {
-                return `Berapa kira-kira berat rata-rata ${state.data.jenisTernak} Bapak/Ibu? (dalam kg)\n\n📝 Ketik angkanya saja\nContoh: *300*`;
+                return `Berapa kira-kira berat rata-rata ${state.data.jenisTernak}? (dalam kg)\n\n📝 Ketik angkanya saja\nContoh: *300*`;
             }
         }
         else if (state.step === 3) {
@@ -736,7 +736,7 @@ async function handleMessage(text, userId) {
         }
     }
     
-    return `🙏 Maaf Bapak/Ibu, saya belum paham maksud "${text}".\n\nSilakan pilih dari menu di bawah ini:\n\n` + getMainMenu();
+    return `🙏 Maaf, saya belum paham maksud "${text}".\n\nSilakan pilih dari menu di bawah ini:\n\n` + getMainMenu();
 }
 
 module.exports = { handleMessage };
