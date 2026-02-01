@@ -1,0 +1,142 @@
+{
+  "musimHujan": {
+    "nama": "Musim Hujan",
+    "kondisi": "Hijauan melimpah",
+    "fokus": "Pakan segar + produksi silase untuk cadangan",
+    "pakanDirekomendasikan": [
+      {
+        "nama": "Rumput Odot",
+        "prioritas": "Tinggi",
+        "alasan": "Produktivitas tinggi, kandungan nutrisi baik"
+      },
+      {
+        "nama": "Rumput Gajah",
+        "prioritas": "Tinggi",
+        "alasan": "Produksi 43-57 ton/ha, dapat diawetkan"
+      },
+      {
+        "nama": "Rumput Raja",
+        "prioritas": "Tinggi",
+        "alasan": "Pertumbuhan cepat, adaptasi baik"
+      },
+      {
+        "nama": "Rumput Benggala",
+        "prioritas": "Sedang",
+        "alasan": "Produktif, adaptif lingkungan tropis"
+      },
+      {
+        "nama": "Rumput Pakchong",
+        "prioritas": "Tinggi",
+        "alasan": "Protein kasar 16-18%, produktivitas sangat tinggi"
+      },
+      {
+        "nama": "Rumput Gama Umami",
+        "prioritas": "Tinggi",
+        "alasan": "Biomassa tinggi, batang lunak, disukai ternak"
+      },
+      {
+        "nama": "Rumput Liar/Lahan",
+        "prioritas": "Sedang",
+        "alasan": "Tersedia gratis, pakan tambahan"
+      }
+    ],
+    "aktivitasUtama": [
+      "Pemberian pakan segar harian",
+      "Produksi silase sebagai cadangan musim kemarau",
+      "Pembuatan hay jika memungkinkan",
+      "Maksimalkan pertumbuhan rumput dengan pemupukan"
+    ],
+    "tips": [
+      "Rumput tumbuh cepat dan subur, mudah diperoleh dalam jumlah besar",
+      "Waktu ideal untuk mengumpulkan bahan baku silase",
+      "Panen rumput unggul secara teratur (35-45 hari)",
+      "Manfaatkan rumput liar yang melimpah sebagai pakan tambahan"
+    ]
+  },
+  "musimKemarau": {
+    "nama": "Musim Kemarau",
+    "kondisi": "Hijauan terbatas",
+    "fokus": "Pakan awetan (silase/hay) + limbah pertanian + sumber protein",
+    "pakanDirekomendasikan": [
+      {
+        "nama": "Silase Rumput (Odot, Gajah, Raja, Pakchong, Gama Umami)",
+        "prioritas": "Sangat Tinggi",
+        "alasan": "Cadangan pakan yang sudah disiapkan, nilai gizi terjaga"
+      },
+      {
+        "nama": "Hay Rumput",
+        "prioritas": "Tinggi",
+        "alasan": "Pakan kering awetan, mudah disimpan"
+      },
+      {
+        "nama": "Jerami Padi",
+        "prioritas": "Sedang",
+        "alasan": "Tersedia melimpah setelah panen, sumber serat"
+      },
+      {
+        "nama": "Jerami Jagung",
+        "prioritas": "Sedang",
+        "alasan": "Limbah pertanian melimpah, sumber serat"
+      },
+      {
+        "nama": "Jerami Kacang Tanah",
+        "prioritas": "Tinggi",
+        "alasan": "Protein kasar 12-14%, lebih baik dari jerami lain"
+      },
+      {
+        "nama": "Ampas Tahu (segar atau fermentasi)",
+        "prioritas": "Sangat Tinggi",
+        "alasan": "Protein kasar 20-39%, tutup kekurangan protein jerami"
+      }
+    ],
+    "aktivitasUtama": [
+      "Gunakan silase dan hay yang sudah disiapkan",
+      "Manfaatkan limbah pertanian (jerami) setelah panen",
+      "Tambahkan ampas tahu sebagai sumber protein",
+      "Kombinasi berbagai jenis pakan untuk nutrisi seimbang"
+    ],
+    "tips": [
+      "Hijauan segar sulit diperoleh, andalkan pakan awetan",
+      "Silase dan hay menjadi solusi utama (dapat disimpan lama, nilai gizi tetap)",
+      "Jerami tersedia melimpah setelah panen padi/jagung",
+      "Ampas tahu penting untuk tambahan protein (jerami rendah protein)",
+      "Kombinasi pakan bantu jaga bobot, produksi susu, dan kesehatan ternak"
+    ]
+  },
+  "strategiKombinasi": {
+    "nama": "Strategi Kombinasi Sepanjang Tahun",
+    "tujuan": "Stabilkan pakan ternak sepanjang tahun",
+    "pendekatan": {
+      "musimHujan": "Fokus pakan segar + produksi silase",
+      "musimKemarau": "Gunakan silase + limbah pertanian + sumber protein tambahan (ampas tahu)"
+    },
+    "manfaat": [
+      "Antisipasi kekurangan pakan saat kemarau",
+      "Kurangi ketergantungan pakan mahal",
+      "Tingkatkan efisiensi pemanfaatan sumber daya lokal",
+      "Jaga ketahanan pakan ternak berkelanjutan"
+    ],
+    "langkahImplementasi": [
+      {
+        "waktu": "Awal Musim Hujan",
+        "kegiatan": "Tanam rumput unggul (Odot, Pakchong, Gama Umami, dll)",
+        "target": "Persiapan sumber pakan jangka panjang"
+      },
+      {
+        "waktu": "Pertengahan-Akhir Musim Hujan",
+        "kegiatan": "Produksi silase dan hay secara maksimal",
+        "target": "Cadangan pakan minimal 3-4 bulan untuk musim kemarau"
+      },
+      {
+        "waktu": "Musim Kemarau",
+        "kegiatan": "Gunakan silase/hay + jerami + ampas tahu",
+        "target": "Jaga kondisi ternak dengan pakan kombinasi"
+      },
+      {
+        "waktu": "Sepanjang Tahun",
+        "kegiatan": "Jalin kerjasama dengan industri tahu lokal untuk pasokan ampas tahu",
+        "target": "Sumber protein stabil dan murah"
+      }
+    ]
+  }
+}

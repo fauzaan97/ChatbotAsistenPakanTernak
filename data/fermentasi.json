@@ -1,0 +1,158 @@
+{
+  "silase": {
+    "nama": "Silase",
+    "deskripsi": "Pakan hijauan yang diawetkan dengan cara difermentasi agar bisa disimpan lama, terutama untuk musim kemarau",
+    "bahanCocok": [
+      "Rumput Odot",
+      "Rumput Gajah",
+      "Rumput Raja",
+      "Rumput Pakchong",
+      "Rumput Gama Umami",
+      "Jerami Padi",
+      "Jerami Jagung",
+      "Jerami Kacang Tanah"
+    ],
+    "langkahLangkah": [
+      {
+        "step": 1,
+        "judul": "Potong Rumput",
+        "detail": "Potong rumput sepanjang kira-kira 3-5 cm"
+      },
+      {
+        "step": 2,
+        "judul": "Jemur Sebentar",
+        "detail": "Jemur selama 2-4 jam jika rumput terlalu basah, supaya tidak terlalu banyak air"
+      },
+      {
+        "step": 3,
+        "judul": "Masukkan ke Wadah",
+        "detail": "Masukkan ke wadah tertutup seperti drum plastik, tong, karung plastik tebal, atau plastik silase"
+      },
+      {
+        "step": 4,
+        "judul": "Padatkan",
+        "detail": "Padatkan rumput dengan diinjak atau ditekan agar tidak ada udara di dalamnya"
+      },
+      {
+        "step": 5,
+        "judul": "Tambahkan Larutan Fermentasi",
+        "detail": "Jika ada, tambahkan larutan fermentasi (campuran air + molase/tetes tebu atau EM4), lalu aduk rata"
+      },
+      {
+        "step": 6,
+        "judul": "Tutup Rapat",
+        "detail": "Tutup rapat wadah hingga benar-benar kedap udara"
+      },
+      {
+        "step": 7,
+        "judul": "Simpan",
+        "detail": "Simpan selama ±14 hari di tempat teduh"
+      }
+    ],
+    "ciriSilaseBaik": [
+      "Berbau harum/asam segar (tidak busuk)",
+      "Tidak berjamur",
+      "Warnanya masih alami/normal"
+    ],
+    "waktuFermentasi": "14 hari",
+    "penyimpanan": "Tempat teduh, wadah kedap udara"
+  },
+  "hay": {
+    "nama": "Hay",
+    "deskripsi": "Pakan hijauan yang dikeringkan agar awet dan mudah disimpan",
+    "bahanCocok": [
+      "Rumput Odot",
+      "Rumput Gajah",
+      "Rumput Raja",
+      "Rumput Benggala",
+      "Rumput Pakchong",
+      "Rumput Gama Umami",
+      "Jerami Jagung"
+    ],
+    "langkahLangkah": [
+      {
+        "step": 1,
+        "judul": "Potong Rumput",
+        "detail": "Potong rumput saat masih muda dan segar"
+      },
+      {
+        "step": 2,
+        "judul": "Jemur",
+        "detail": "Jemur di bawah sinar matahari selama 2-3 hari"
+      },
+      {
+        "step": 3,
+        "judul": "Bolak-Balik",
+        "detail": "Bolak-balik rumput saat dijemur agar kering merata"
+      },
+      {
+        "step": 4,
+        "judul": "Pastikan Kering",
+        "detail": "Pastikan rumput benar-benar kering, tidak lembap dan tidak berjamur"
+      },
+      {
+        "step": 5,
+        "judul": "Simpan",
+        "detail": "Simpan di tempat kering seperti gudang, karung, atau rak bambu yang tidak terkena hujan"
+      }
+    ],
+    "ciriHayBaik": [
+      "Kering sempurna",
+      "Tidak berbau apek",
+      "Warnanya masih kehijauan",
+      "Tidak berjamur"
+    ],
+    "waktuPengeringan": "2-3 hari",
+    "penyimpanan": "Tempat kering, tidak terkena hujan"
+  },
+  "ampasTahu": {
+    "nama": "Fermentasi Ampas Tahu",
+    "deskripsi": "Fermentasi ampas tahu untuk perpanjang daya simpan, mengurangi bau, dan meningkatkan kecernaan",
+    "langkahLangkah": [
+      {
+        "step": 1,
+        "judul": "Penirisan",
+        "detail": "Peras atau tiriskan ampas tahu hingga tidak terlalu basah"
+      },
+      {
+        "step": 2,
+        "judul": "Pencampuran",
+        "detail": "Campurkan ampas tahu dengan dedak secukupnya agar tidak lembek dan nilai nutrisi meningkat"
+      },
+      {
+        "step": 3,
+        "judul": "Pembuatan Larutan Fermentasi",
+        "detail": "Campurkan 1 liter air, 2-3 sendok makan molase/gula merah cair, dan 1-2 tutup botol EM4 (atau ragi tape halus)"
+      },
+      {
+        "step": 4,
+        "judul": "Fermentasi",
+        "detail": "Siram larutan ke campuran ampas tahu sambil diaduk rata hingga lembap"
+      },
+      {
+        "step": 5,
+        "judul": "Penyimpanan",
+        "detail": "Masukkan ke wadah kedap udara, padatkan agar tidak ada udara, lalu tutup rapat"
+      },
+      {
+        "step": 6,
+        "judul": "Waktu Fermentasi",
+        "detail": "Simpan di tempat teduh selama 3-7 hari"
+      }
+    ],
+    "ciriAmpasTahuBaik": [
+      "Berbau harum atau asam segar (tidak busuk)",
+      "Tidak berjamur hitam atau hijau",
+      "Tekstur lebih lembut"
+    ],
+    "bahanDibutuhkan": {
+      "ampasTahu": "Secukupnya",
+      "dedak": "Secukupnya",
+      "air": "1 liter",
+      "molase": "2-3 sendok makan",
+      "EM4": "1-2 tutup botol (atau ragi tape halus)"
+    },
+    "waktuFermentasi": "3-7 hari",
+    "penyimpanan": "Wadah kedap udara, tempat teduh"
+  }
+}

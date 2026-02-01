@@ -1,0 +1,78 @@
+{
+  "updateTerakhir": "2025-01-30",
+  "hargaPakan": {
+    "sapi": [
+      {
+        "nama": "Rumput Gajah",
+        "satuan": "per ikat (5kg)",
+        "harga": "5000-8000",
+        "keterangan": "Harga bervariasi tergantung musim"
+      },
+      {
+        "nama": "Konsentrat Sapi",
+        "satuan": "per kg",
+        "harga": "4500-6000",
+        "keterangan": "Harga berbeda tiap merk"
+      },
+      {
+        "nama": "Dedak Padi",
+        "satuan": "per kg",
+        "harga": "3500-4500",
+        "keterangan": "Harga lokal"
+      },
+      {
+        "nama": "Jagung Giling",
+        "satuan": "per kg",
+        "harga": "5000-6000",
+        "keterangan": "Tergantung kualitas"
+      }
+    ],
+    "kambing": [
+      {
+        "nama": "Daun Lamtoro",
+        "satuan": "per ikat",
+        "harga": "2000-3000",
+        "keterangan": "Gratis jika menanam sendiri"
+      },
+      {
+        "nama": "Konsentrat Kambing",
+        "satuan": "per kg",
+        "harga": "5000-7000",
+        "keterangan": "Harga berbeda tiap merk"
+      },
+      {
+        "nama": "Ampas Tahu",
+        "satuan": "per kg",
+        "harga": "1000-2000",
+        "keterangan": "Bisa gratis dari pabrik tahu"
+      }
+    ],
+    "ayam": [
+      {
+        "nama": "Pakan Starter BR-1",
+        "satuan": "per kg",
+        "harga": "8000-10000",
+        "keterangan": "Pakan komersial"
+      },
+      {
+        "nama": "Pakan Grower BR-2",
+        "satuan": "per kg",
+        "harga": "7000-9000",
+        "keterangan": "Pakan komersial"
+      },
+      {
+        "nama": "Pakan Layer",
+        "satuan": "per kg",
+        "harga": "6500-8500",
+        "keterangan": "Untuk ayam petelur"
+      },
+      {
+        "nama": "Jagung Pipil",
+        "satuan": "per kg",
+        "harga": "5000-6500",
+        "keterangan": "Bisa racik sendiri"
+      }
+    ]
+  },
+  "catatan": "Harga dapat berubah sewaktu-waktu. Silakan cek harga lokal di toko pakan terdekat."
+}

@@ -1,0 +1,371 @@
+{
+  "rumput": {
+    "odot": {
+      "nama": "Rumput Odot (Pennisetum purpureum cv. Mott)",
+      "deskripsi": "Rumput Gajah Mini yang berukuran lebih kecil, sangat disukai ternak ruminansia",
+      "keunggulan": [
+        "Tekstur daun lunak dengan batang tidak keras",
+        "Pertumbuhan cepat, dapat dipanen setiap 35-45 hari",
+        "Sangat produktif: >60 ton hijauan/ha/tahun"
+      ],
+      "nutrisi": {
+        "proteinKasar": "12-17%",
+        "seratKasar": "29-33.5%",
+        "lemakKasar": "0.9-2.7%",
+        "TDN": "55-60%",
+        "kecernaan": "65-72%",
+        "mineral": "Kalsium, fosfor, magnesium, kalium",
+        "vitamin": "Berbagai vitamin untuk ternak"
+      },
+      "penanaman": {
+        "metode": "Stek batang (3 ruas, 2 ruas ditanam)",
+        "jarak": "50-75 cm antar bibit, 75-150 cm antar baris",
+        "persiapanLahan": "Bersihkan gulma, buat bedengan 60-80cm x 20cm tinggi"
+      },
+      "perawatan": {
+        "pupukKandang": "3 ton/ha",
+        "pupukNPK": "60 kg/ha pada hari ke-15",
+        "pupukCair": "Urine kambing fermentasi (semprot)",
+        "panen": "70-80 hari pertama, selanjutnya 35-45 hari (musim hujan)"
+      },
+      "penggunaan": [
+        "Pakan segar: cacah sebelum diberikan",
+        "Silase: cacah + dedak/bekatul + larutan fermentasi (air+molase+EM4), fermentasi 14 hari",
+        "Kombinasi dengan hijauan lain atau pakan tambahan"
+      ],
+      "rekomendasiMusim": ["hujan", "kemarau"]
+    },
+    "gajah": {
+      "nama": "Rumput Gajah (Pennisetum purpureum)",
+      "deskripsi": "Hijauan pakan unggul yang mudah dikembangkan di daerah tropis",
+      "keunggulan": [
+        "Produksi tinggi: 43-57 ton/ha per panen",
+        "Kandungan nutrisi baik",
+        "Disukai ternak",
+        "Dapat diawetkan untuk musim paceklik"
+      ],
+      "nutrisi": {
+        "proteinKasar": "10-15%",
+        "seratKasar": "31-34%",
+        "bahanKering": "19-21%",
+        "mineral": "Berbagai mineral penting",
+        "lemak": "Rendah",
+        "vitamin": "Vitamin A dan C"
+      },
+      "penanaman": {
+        "metode": "Stek batang (2-3 ruas) atau anakan",
+        "waktu": "Musim hujan",
+        "jarak": "20-50 cm",
+        "pola": "Zig-zag atau baris",
+        "persiapanLahan": "Gemburkan tanah, tambahkan pupuk kandang"
+      },
+      "perawatan": {
+        "penyiangan": "Rutin untuk menghilangkan gulma",
+        "penyiraman": "Teratur, terutama awal pertumbuhan dan musim kemarau",
+        "pemupukan": "Berkala dengan pupuk kandang atau anorganik",
+        "pemangkasan": "Teratur untuk merangsang tunas baru",
+        "pengendalian": "Hama dan penyakit"
+      },
+      "penggunaan": [
+        "Cacah 3-5 cm sebelum diberikan",
+        "Panen pertama: 70-80 hari",
+        "Panen berikutnya: 35-45 hari (hujan), 40-50 hari (kemarau)",
+        "Sistem cut and carry atau diawetkan (silase/hay)",
+        "Kebutuhan penggemukan: 4.8 kg/hari + 5% cadangan",
+        "Pemberian: bertahap minimal 4x sehari"
+      ],
+      "rekomendasiMusim": ["hujan"]
+    },
+    "raja": {
+      "nama": "Rumput Raja (Pennisetum purpureophoides) / King Grass",
+      "deskripsi": "Rumput pakan produktivitas tinggi untuk ruminansia",
+      "keunggulan": [
+        "Produktivitas tinggi",
+        "Pertumbuhan cepat",
+        "Adaptasi baik di dataran rendah dan tinggi",
+        "Biomassa besar",
+        "Nutrisi lebih baik dari rumput liar"
+      ],
+      "nutrisi": {
+        "proteinKasar": "10-15%",
+        "seratKasar": "Mendukung fermentasi rumen",
+        "catatan": "Nilai nutrisi bervariasi tergantung umur panen dan manajemen"
+      },
+      "penanaman": {
+        "metode": "Stek batang",
+        "persiapanLahan": "Bersihkan gulma, cukup sinar matahari",
+        "jarak": "Sesuai untuk pertumbuhan rumpun",
+        "kebutuhan": "Pengairan dan pemupukan memadai"
+      },
+      "perawatan": {
+        "penyiangan": "Kurangi persaingan gulma",
+        "penyiraman": "Rutin terutama fase awal",
+        "pemupukan": "Untuk kesuburan tanah",
+        "pengendalian": "Hama dan penyakit bila perlu"
+      },
+      "penggunaan": [
+        "Pakan segar: potong dan berikan langsung",
+        "Hay atau silase: untuk cadangan musim kemarau",
+        "Meningkatkan pemanfaatan nutrisi"
+      ],
+      "rekomendasiMusim": ["hujan"]
+    },
+    "benggala": {
+      "nama": "Rumput Benggala (Panicum maximum)",
+      "deskripsi": "Rumput hijauan dari Afrika untuk pakan ruminansia",
+      "keunggulan": [
+        "Produktif tinggi",
+        "Tumbuh cepat",
+        "Adaptif di lingkungan tropis",
+        "Tahan kekeringan",
+        "Akar serabut mencegah erosi",
+        "Cocok untuk curah hujan rendah-sedang"
+      ],
+      "nutrisi": {
+        "proteinKasar": "Moderat",
+        "seratKasar": "Relatif tinggi",
+        "mineral": "Mendukung pencernaan ternak",
+        "catatan": "Nilai nutrisi bervariasi tergantung umur panen, cocok sebagai pakan dasar"
+      },
+      "penanaman": {
+        "metode": "Stek batang/vegetatif atau benih (generatif)",
+        "persiapanLahan": "Bersihkan gulma",
+        "lokasi": "Sinar matahari cukup, drainase baik",
+        "jarak": "Sesuai untuk pertumbuhan optimal"
+      },
+      "perawatan": {
+        "penyiangan": "Rutin mencegah persaingan",
+        "penyiraman": "Fase awal atau musim kering",
+        "pemupukan": "Untuk kesuburan tanah",
+        "pengendalian": "Hama dan penyakit sesuai kebutuhan"
+      },
+      "penggunaan": [
+        "Hijauan segar: panen dan berikan langsung",
+        "Silase atau hay: cadangan saat hijauan terbatas",
+        "Dicampur dengan aditif saat membuat silase"
+      ],
+      "rekomendasiMusim": ["hujan"]
+    },
+    "pakchong": {
+      "nama": "Rumput Pakchong (Pennisetum purpureum cv.Thailand)",
+      "deskripsi": "Varietas unggul persilangan rumput gajah x pearl millet dari Thailand",
+      "keunggulan": [
+        "Produktivitas biomassa sangat tinggi",
+        "Pertumbuhan cepat",
+        "Protein kasar tinggi: 16-18%",
+        "Tahan kekeringan",
+        "Mudah ditanam di berbagai lingkungan",
+        "Cocok untuk pasokan pakan berkelanjutan"
+      ],
+      "nutrisi": {
+        "proteinKasar": "16-18%",
+        "catatan": "Lebih tinggi dari Odot dan Taiwan, mendukung pertumbuhan dan produksi ternak"
+      },
+      "penanaman": {
+        "metode": "Stek batang sehat",
+        "jarak": "30 x 50 cm",
+        "persiapanLahan": "Bersihkan gulma, gemburkan tanah",
+        "teknik": "Miringkan sedikit saat tanam agar akar mudah berkembang"
+      },
+      "perawatan": {
+        "pengendalianGulma": "Rutin",
+        "pemupukan": "Berkala untuk kesuburan",
+        "penyiraman": "Awal pertumbuhan atau musim kering",
+        "pupuk": "Kandang atau mineral untuk produksi hijauan",
+        "pengendalian": "Hama/penyakit bila perlu"
+      },
+      "penggunaan": [
+        "Hijauan segar: potong dan berikan langsung",
+        "Silase atau hay: cadangan jangka panjang saat kemarau/paceklik",
+        "Meningkatkan daya simpan dan menjaga nutrisi"
+      ],
+      "rekomendasiMusim": ["hujan", "kemarau"]
+    },
+    "gamaUmami": {
+      "nama": "Rumput Gama Umami (Pennisetum purpureum cv.GU)",
+      "deskripsi": "Varietas unggul Napier grass hasil mutasi genetik dengan radiasi sinar gamma",
+      "keunggulan": [
+        "Produktivitas biomassa lebih tinggi",
+        "Daun lebih hijau",
+        "Batang lebih lunak",
+        "Tidak ada bulu halus",
+        "Lebih disukai ternak",
+        "Pertumbuhan optimal"
+      ],
+      "nutrisi": {
+        "proteinKasar": "11.21-14.7%",
+        "lemakKasar": "3.40%",
+        "seratKasar": "34.26%",
+        "ADF_NDF": "Nilai baik sebagai pakan hijauan",
+        "produksiBiomassa": "Tinggi dengan nutrisi unggul"
+      },
+      "penanaman": {
+        "metode": "Stek batang",
+        "persiapanLahan": "Bersihkan gulma, tanah gembur",
+        "lokasi": "Cukup sinar matahari",
+        "tujuan": "Produksi hijauan berkelanjutan"
+      },
+      "perawatan": {
+        "penyiangan": "Berkala kurangi persaingan",
+        "penyiraman": "Musim kering atau fase awal",
+        "pemupukan": "Menjaga kesuburan tanah",
+        "pengendalian": "Hama dan penyakit bila perlu"
+      },
+      "penggunaan": [
+        "Hijauan segar: langsung setelah panen",
+        "Silase: fermentasi anaerob untuk perpanjang masa simpan",
+        "Meningkatkan palatabilitas dan kecernaan (domba, sapi, kambing)",
+        "Alternatif penting saat hijauan terbatas"
+      ],
+      "rekomendasiMusim": ["hujan", "kemarau"]
+    },
+    "liar": {
+      "nama": "Rumput Liar/Lahan",
+      "deskripsi": "Rumput yang tumbuh alami tanpa ditanam di lahan terbuka, tegalan, sawah, padang gembalaan",
+      "keunggulan": [
+        "Tersedia gratis dan melimpah (musim hujan)",
+        "Tumbuh tanpa perawatan khusus",
+        "Mudah diakses",
+        "Sumber pakan alternatif ekonomis"
+      ],
+      "nutrisi": {
+        "proteinKasar": "9-13%",
+        "seratKasar": "38-43%",
+        "catatan": "Nilai sangat bervariasi tergantung jenis, lokasi, musim. Cukup untuk serat dan energi, perlu dilengkapi protein tambahan"
+      },
+      "penanaman": {
+        "metode": "Tumbuh sendiri, tidak ditanam",
+        "pengelolaan": "Minimalkan gangguan, jaga kelembapan tanah, sediakan ruang terbuka"
+      },
+      "perawatan": {
+        "pengendalian": "Minimalkan gulma invasif lain",
+        "pemantauan": "Musiman untuk jaga kualitas",
+        "manajemen": "Jaga area tetap terbuka dari semak"
+      },
+      "penggunaan": [
+        "Hijauan segar: potong saat ketersediaan hijauan utama rendah",
+        "Cacah sebelum diberikan untuk mudah dikonsumsi",
+        "Padukan dengan hijauan bergizi",
+        "Silase atau hay: cadangan musim kemarau"
+      ],
+      "rekomendasiMusim": ["hujan"]
+    }
+  },
+  "limbahPertanian": {
+    "jeramiPadi": {
+      "nama": "Jerami Padi",
+      "deskripsi": "Limbah batang, daun, tangkai padi setelah panen bulir",
+      "keunggulan": [
+        "Tersedia dalam jumlah besar setiap musim panen",
+        "Murah dan mudah diperoleh",
+        "Bermanfaat saat musim paceklik hijauan",
+        "Dapat diolah untuk meningkatkan nilai gizi"
+      ],
+      "nutrisi": {
+        "proteinKasar": "4-6% (rendah)",
+        "seratKasar": "Tinggi",
+        "lignin": "Tinggi",
+        "silika": "Tinggi",
+        "kecernaan": "Rendah tanpa pengolahan",
+        "energiProtein": "Terbatas jika digunakan sendirian"
+      },
+      "pengolahan": [
+        "Fermentasi (silase) dengan probiotik",
+        "Teknik biologis untuk tingkatkan nilai gizi",
+        "Meningkatkan daya terima ternak"
+      ],
+      "penggunaan": [
+        "Pakan kasar saat ketersediaan hijauan rendah",
+        "Fermentasi lebih disukai ternak dibanding tanpa pengolahan",
+        "Simpan sebagai cadangan pakan musim paceklik"
+      ],
+      "rekomendasiMusim": ["kemarau"]
+    },
+    "jeramiKacangTanah": {
+      "nama": "Jerami Kacang Tanah",
+      "deskripsi": "Limbah batang dan daun kacang tanah (Arachis hypogaea) setelah panen",
+      "keunggulan": [
+        "Nilai nutrisi lebih tinggi dari jerami padi dan jagung",
+        "Protein kasar dan kecernaan energi baik",
+        "Ekonomis sebagai pakan alternatif",
+        "Membantu penuhi kebutuhan serat dan energi"
+      ],
+      "nutrisi": {
+        "proteinKasar": "12-14%",
+        "seratKasar": "34-40%",
+        "energi": "Mendukung kebutuhan pakan ternak",
+        "catatan": "Lebih tinggi dari jerami padi, meningkatkan kontribusi protein dan energi"
+      },
+      "pengolahan": [
+        "Fermentasi untuk tingkatkan nilai gizi",
+        "Campur dengan dedak padi atau hijauan lain",
+        "Menurunkan serat kasar, tingkatkan protein efektif"
+      ],
+      "penggunaan": [
+        "Pakan kasar langsung saat musim kemarau/hijauan terbatas",
+        "Proses untuk tingkatkan nilai gizi karena serat kasar tinggi",
+        "Campur dengan bahan lain agar mudah dicerna"
+      ],
+      "rekomendasiMusim": ["kemarau"]
+    },
+    "jeramiJagung": {
+      "nama": "Jerami Jagung",
+      "deskripsi": "Sisa batang, daun, bagian tanaman jagung (Zea mays) setelah panen biji",
+      "keunggulan": [
+        "Tersedia melimpah setiap musim panen",
+        "Membantu penuhi kebutuhan hijauan saat kemarau",
+        "Dapat ditingkatkan kualitasnya dengan pengolahan",
+        "Jadi silase/hay yang bergizi dan tahan lama"
+      ],
+      "nutrisi": {
+        "proteinKasar": "Rendah",
+        "seratKasar": "Tinggi (NDF dan ADF tinggi)",
+        "energi": "Sumber serat penting untuk ruminansia",
+        "catatan": "Kurang ideal tanpa pengolahan, perlu dicampur atau difermentasi"
+      },
+      "pengolahan": [
+        "Fermentasi menjadi silase",
+        "Pembuatan hay",
+        "Tingkatkan daya cerna dan nilai nutrisi",
+        "Simpan pakan lebih lama"
+      ],
+      "penggunaan": [
+        "Pakan kasar langsung saat hijauan terbatas",
+        "Sangat dianjurkan diolah karena protein rendah dan serat tinggi",
+        "Bantu hadapi musim kekeringan"
+      ],
+      "rekomendasiMusim": ["kemarau"]
+    }
+  },
+  "limbahPadat": {
+    "ampasTahu": {
+      "nama": "Ampas Tahu (Okara)",
+      "deskripsi": "Limbah padat tidak larut dari kedelai setelah pembuatan tahu/susu kedelai",
+      "keunggulan": [
+        "Tersedia melimpah dari industri tahu lokal",
+        "Berbiaya rendah",
+        "Protein tinggi dibanding sumber pakan lain",
+        "Sumber protein nabati baik bila diolah",
+        "Dapat difermentasi untuk tingkatkan nilai gizi"
+      ],
+      "nutrisi": {
+        "proteinKasar": "20.9-39.1% (basis bahan kering)",
+        "serat": "Cukup",
+        "lemak": "Cukup",
+        "energi": "Layak sebagai sumber pakan",
+        "catatan": "Kadar air tinggi, perlu pengolahan"
+      },
+      "pengolahan": [
+        "Fermentasi untuk tingkatkan kecernaan dan nilai nutrisi",
+        "Pengeringan untuk perpanjang daya simpan",
+        "Campur dengan dedak atau hijauan untuk ransum seimbang"
+      ],
+      "penggunaan": [
+        "Campur dengan sumber pakan lain dalam ransum untuk tambah protein",
+        "Proses fermentasi/pengeringan sangat dianjurkan (kadar air tinggi, rentan busuk)",
+        "Kombinasi dengan pakan tambahan"
+      ],
+      "rekomendasiMusim": ["hujan", "kemarau"]
+    }
+  }
+}

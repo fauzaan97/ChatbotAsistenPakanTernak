@@ -1,0 +1,64 @@
+{
+  "tips": {
+    "jadwal": {
+      "judul": "Tips Jadwal Pemberian Pakan",
+      "konten": [
+        "🕐 Berikan pakan secara teratur 2-3 kali sehari",
+        "🌅 Waktu terbaik: pagi (06.00-08.00), siang (12.00-14.00), sore (16.00-18.00)",
+        "💧 Selalu sediakan air bersih setiap saat",
+        "📅 Buat jadwal tetap agar ternak terbiasa",
+        "⚖️ Jangan memberi pakan berlebihan sekaligus"
+      ]
+    },
+    "penyimpanan": {
+      "judul": "Cara Menyimpan Pakan dengan Benar",
+      "konten": [
+        "🏠 Simpan di tempat kering dan sejuk",
+        "🚫 Hindari terkena sinar matahari langsung",
+        "📦 Gunakan wadah tertutup rapat (karung/drum)",
+        "🐀 Jauhkan dari tikus dan hama",
+        "📆 Gunakan sistem FIFO (First In First Out)",
+        "👃 Buang pakan yang berbau apek atau berjamur",
+        "💨 Pastikan sirkulasi udara baik"
+      ]
+    },
+    "pencampuran": {
+      "judul": "Cara Mencampur Pakan",
+      "konten": [
+        "⚖️ Timbang setiap bahan sesuai takaran",
+        "🔄 Campur bahan kering terlebih dahulu",
+        "💧 Tambahkan air sedikit demi sedikit jika perlu",
+        "👐 Aduk hingga merata",
+        "🎯 Perbandingan umum: 60% hijauan + 40% konsentrat",
+        "⏰ Buat pakan racikan maksimal untuk 2-3 hari",
+        "🌡️ Jangan campur pakan dalam kondisi basah/lembab"
+      ]
+    },
+    "umum": {
+      "judul": "Tips Umum Pemberian Pakan",
+      "konten": [
+        "🔍 Perhatikan kondisi dan nafsu makan ternak",
+        "📊 Catat konsumsi pakan harian",
+        "🌾 Variasikan jenis pakan untuk nutrisi seimbang",
+        "💊 Tambahkan mineral dan vitamin secara berkala",
+        "🧹 Bersihkan tempat pakan setiap hari",
+        "🚰 Ganti air minum minimal 2x sehari",
+        "👨‍⚕️ Konsultasi ke petugas jika ada masalah"
+      ]
+    }
+  },
+  "faq": [
+    {
+      "pertanyaan": "Berapa lama pakan bisa disimpan?",
+      "jawaban": "Pakan kering bisa disimpan 1-2 bulan jika disimpan dengan baik. Pakan basah/fermentasi maksimal 3-5 hari."
+    },
+    {
+      "pertanyaan": "Bolehkah memberi pakan yang sama setiap hari?",
+      "jawaban": "Sebaiknya divariasi untuk nutrisi yang lebih seimbang. Namun pakan pokok bisa sama, tambahkan pakan tambahan yang bervariasi."
+    },
+    {
+      "pertanyaan": "Apa tanda pakan sudah rusak?",
+      "jawaban": "Bau apek/tengik, berubah warna menjadi kehitaman, ada jamur, atau ternak menolak makan."
+    }
+  ]
+}
