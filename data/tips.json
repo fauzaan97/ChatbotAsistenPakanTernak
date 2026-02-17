@@ -59,6 +59,42 @@
     {
       "pertanyaan": "Apa tanda pakan sudah rusak?",
       "jawaban": "Bau apek/tengik, berubah warna menjadi kehitaman, ada jamur, atau ternak menolak makan."
+    },
+    {
+      "pertanyaan": "Berapa lama silase bisa disimpan?",
+      "jawaban": "Silase yang baik bisa disimpan hingga 6-12 bulan jika wadah tertutup rapat dan tidak terkena udara. Setelah dibuka, gunakan dalam 3-5 hari."
+    },
+    {
+      "pertanyaan": "Apa bedanya silase dan hay?",
+      "jawaban": "Silase adalah pakan yang difermentasi dalam kondisi anaerob (tanpa udara), sedangkan hay adalah pakan yang dikeringkan di bawah sinar matahari. Silase lebih basah, hay lebih kering."
+    },
+    {
+      "pertanyaan": "Berapa banyak lamtoro yang boleh diberikan?",
+      "jawaban": "Maksimal 30% dari total ransum harian. Pemberian berlebihan bisa menyebabkan keracunan mimosin (bulu rontok, gangguan pencernaan)."
+    },
+    {
+      "pertanyaan": "Apakah ampas tahu bisa diberikan langsung?",
+      "jawaban": "Bisa, tapi sebaiknya difermentasi dulu karena ampas tahu segar mudah busuk (kadar air tinggi). Fermentasi juga meningkatkan nilai nutrisinya."
+    },
+    {
+      "pertanyaan": "Bagaimana cara mengatasi ternak yang tidak mau makan?",
+      "jawaban": "Cek kondisi kesehatan ternak, kualitas pakan, dan pastikan air minum tersedia. Coba variasikan pakan atau berikan pakan yang lebih segar/palatabel."
+    },
+    {
+      "pertanyaan": "Kapan waktu terbaik menanam rumput pakan?",
+      "jawaban": "Awal musim hujan adalah waktu terbaik karena ketersediaan air cukup untuk pertumbuhan awal rumput."
+    },
+    {
+      "pertanyaan": "Berapa kebutuhan air minum ternak per hari?",
+      "jawaban": "Sapi: 30-50 liter/hari, Kambing: 3-5 liter/hari, Ayam: 150-300 ml/ekor/hari. Kebutuhan meningkat saat cuaca panas."
+    },
+    {
+      "pertanyaan": "Apakah jerami padi bisa dijadikan pakan utama?",
+      "jawaban": "Tidak disarankan karena nutrisinya rendah (protein hanya 4-6%). Jerami sebaiknya dicampur dengan pakan berprotein tinggi seperti ampas tahu atau leguminosa."
+    },
+    {
+      "pertanyaan": "Bagaimana cara mendapatkan ampas tahu?",
+      "jawaban": "Hubungi industri tahu lokal di sekitar Anda. Biasanya ampas tahu dijual murah atau bahkan gratis karena dianggap limbah produksi."
     }
   ]
 }
