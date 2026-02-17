@@ -3,6 +3,7 @@ const hargaData = require('../data/harga.json');
 const tipsData = require('../data/tips.json');
 const fermentasiData = require('../data/fermentasi.json');
 const strategiMusimData = require('../data/strategi_musim.json');
+const nutrisiData = require('../data/nutrisi.json');
 
 // Simpan state user (dalam memory, akan hilang jika restart)
 const userStates = {};
@@ -18,7 +19,7 @@ Saya adalah asisten yang siap membantu tentang pakan ternak.
 *SILAKAN PILIH:*
 
 1️⃣ Jenis-Jenis Pakan Ternak
-     (Rumput, Jerami, Ampas Tahu)
+     (Rumput, Leguminosa, Jerami, Ampas Tahu)
 
 2️⃣ Hitung Kebutuhan Pakan
      (Berapa banyak pakan yang diperlukan)
@@ -35,12 +36,21 @@ Saya adalah asisten yang siap membantu tentang pakan ternak.
 6️⃣ Tips Memberi Pakan
      (Jadwal, penyimpanan, campuran)
 
-7️⃣ Pertanyaan Umum
+7️⃣ Kebutuhan Nutrisi Ternak
+     (Protein, energi, mineral per fase)
+
+8️⃣ Tanda Kekurangan Nutrisi
+     (Gejala dan cara mengatasinya)
+
+9️⃣ Formulasi Ransum
+     (Cara menyusun pakan seimbang)
+
+🔟 Pertanyaan Umum
      (Jawaban pertanyaan yang sering ditanya)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 📝 *Cara pakai:*
-Ketik angka *1* sampai *7* lalu kirim
+Ketik angka *1* sampai *10* lalu kirim
 
 Ketik *menu* kapan saja untuk kembali ke sini`;
 }
@@ -54,14 +64,20 @@ Pakan mana yang ingin dilihat?
 1️⃣ *Rumput-rumputan*
      Rumput Odot, Gajah, Raja, dll
 
-2️⃣ *Sisa Hasil Panen*
+2️⃣ *Tanaman Leguminosa*
+     Lamtoro, Gamal, Kaliandra (protein tinggi)
+
+3️⃣ *Sisa Hasil Panen*
      Jerami padi, kacang, jagung
 
-3️⃣ *Ampas Tahu*
+4️⃣ *Ampas Tahu*
      Pakan dari sisa pembuatan tahu
 
+5️⃣ *Maggot (Larva BSF)*
+     Larva lalat tentara hitam, protein tinggi
+
 ━━━━━━━━━━━━━━━━━━━━━━━━
-Ketik angka *1*, *2*, atau *3*
+Ketik angka *1* sampai *5*
 Ketik *menu* untuk kembali`;
 }
 
@@ -101,6 +117,101 @@ Pilih yang ingin diketahui:
 
 ━━━━━━━━━━━━━━━━━━━━━━━━
 Ketik angka *1*, *2*, atau *3*
+Ketik *menu* untuk kembali`;
+}
+
+// Menu leguminosa
+function getMenuLeguminosa() {
+    return `🌿 *TANAMAN LEGUMINOSA (TINGGI PROTEIN)*
+
+Pilih yang ingin diketahui:
+
+1️⃣ *Lamtoro*
+     Protein 20-30%, mudah tumbuh
+
+2️⃣ *Gamal*
+     Protein 20-25%, tahan kering
+
+3️⃣ *Kaliandra*
+     Protein 22-28%, produksi tinggi
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+Ketik angka *1*, *2*, atau *3*
+Ketik *menu* untuk kembali`;
+}
+
+// Menu kebutuhan nutrisi
+function getMenuKebutuhanNutrisi() {
+    return `📊 *KEBUTUHAN NUTRISI TERNAK*
+
+Pilih jenis ternak:
+
+1️⃣ *Sapi*
+     (Perah, Potong, Bunting, Pedet)
+
+2️⃣ *Kambing*
+     (Dewasa, Bunting, Menyusui, Cempe)
+
+3️⃣ *Ayam*
+     (Pedaging, Petelur)
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+Ketik angka *1*, *2*, atau *3*
+Ketik *menu* untuk kembali`;
+}
+
+// Menu tanda kekurangan nutrisi
+function getMenuTandaKekurangan() {
+    return `⚠️ *TANDA KEKURANGAN NUTRISI*
+
+Pilih jenis kekurangan:
+
+1️⃣ *Kekurangan Protein*
+     Pertumbuhan lambat, bulu kusam
+
+2️⃣ *Kekurangan Energi*
+     Badan kurus, lemas
+
+3️⃣ *Kekurangan Mineral*
+     Tulang lemah, jilat tanah
+
+4️⃣ *Kekurangan Vitamin*
+     Daya tahan tubuh lemah
+
+5️⃣ *Kekurangan Air*
+     Dehidrasi, nafsu makan turun
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+Ketik angka *1* sampai *5*
+Ketik *menu* untuk kembali`;
+}
+
+// Menu formulasi ransum
+function getMenuFormulasiRansum() {
+    return `📋 *FORMULASI RANSUM PAKAN*
+
+Pilih yang ingin dipelajari:
+
+1️⃣ *Prinsip Dasar Formulasi*
+     Hal-hal yang perlu diperhatikan
+
+2️⃣ *Komposisi Ransum Sapi*
+     Contoh campuran pakan sapi
+
+3️⃣ *Komposisi Ransum Kambing*
+     Contoh campuran pakan kambing
+
+4️⃣ *Komposisi Ransum Ayam*
+     Contoh campuran pakan ayam
+
+5️⃣ *Langkah-Langkah Formulasi*
+     Cara menyusun ransum sendiri
+
+6️⃣ *Tips Ekonomis*
+     Cara hemat biaya pakan
+
+━━━━━━━━━━━━━━━━━━━━━━━━
+Ketik angka *1* sampai *6*
 Ketik *menu* untuk kembali`;
 }
 
@@ -261,6 +372,210 @@ function getInfoAmpasTahu() {
     });
     
     response += `\n📅 *Rekomendasi Musim:* ${ampas.rekomendasiMusim.join(', ')}`;
+    
+    response += `\n\nKetik *menu* untuk kembali`;
+    return response;
+}
+
+// Format informasi maggot
+function getInfoMaggot() {
+    const maggot = pakanData.limbahPadat.maggot;
+    
+    let response = `🪲 *${maggot.nama.toUpperCase()}*\n\n`;
+    response += `📝 *Deskripsi:*\n${maggot.deskripsi}\n\n`;
+    
+    response += `✨ *Keunggulan:*\n`;
+    maggot.keunggulan.forEach((item, idx) => {
+        response += `${idx + 1}. ${item}\n`;
+    });
+    
+    response += `\n🔬 *Kandungan Nutrisi:*\n`;
+    Object.keys(maggot.nutrisi).forEach(key => {
+        const label = key.replace(/([A-Z])/g, ' $1').trim();
+        response += `• ${label}: ${maggot.nutrisi[key]}\n`;
+    });
+    
+    response += `\n🏠 *Cara Budidaya:*\n`;
+    Object.keys(maggot.budidaya).forEach(key => {
+        const label = key.replace(/([A-Z])/g, ' $1').trim();
+        response += `• ${label}: ${maggot.budidaya[key]}\n`;
+    });
+    
+    response += `\n🔄 *Pengolahan:*\n`;
+    maggot.pengolahan.forEach((item, idx) => {
+        response += `${idx + 1}. ${item}\n`;
+    });
+    
+    response += `\n📋 *Cara Penggunaan:*\n`;
+    maggot.penggunaan.forEach((item, idx) => {
+        response += `${idx + 1}. ${item}\n`;
+    });
+    
+    response += `\n🌿 *Manfaat Lingkungan:*\n`;
+    maggot.manfaatLingkungan.forEach((item, idx) => {
+        response += `${idx + 1}. ${item}\n`;
+    });
+    
+    response += `\n📅 *Rekomendasi Musim:* ${maggot.rekomendasiMusim.join(', ')}`;
+    
+    response += `\n\nKetik *menu* untuk kembali`;
+    return response;
+}
+
+// Format informasi leguminosa
+function getInfoLeguminosa(jenis) {
+    const legum = pakanData.leguminosa[jenis];
+    if (!legum) return '🙏 Maaf, data tanaman ini belum tersedia.';
+    
+    let response = `🌿 *${legum.nama.toUpperCase()}*\n\n`;
+    response += `📝 *Deskripsi:*\n${legum.deskripsi}\n\n`;
+    
+    response += `✨ *Keunggulan:*\n`;
+    legum.keunggulan.forEach((item, idx) => {
+        response += `${idx + 1}. ${item}\n`;
+    });
+    
+    response += `\n🔬 *Kandungan Nutrisi:*\n`;
+    Object.keys(legum.nutrisi).forEach(key => {
+        const label = key.replace(/([A-Z])/g, ' $1').trim();
+        response += `• ${label}: ${legum.nutrisi[key]}\n`;
+    });
+    
+    if (legum.penanaman) {
+        response += `\n🌾 *Cara Penanaman:*\n`;
+        Object.keys(legum.penanaman).forEach(key => {
+            const label = key.replace(/([A-Z])/g, ' $1').trim();
+            response += `• ${label}: ${legum.penanaman[key]}\n`;
+        });
+    }
+    
+    if (legum.perawatan) {
+        response += `\n🔧 *Perawatan:*\n`;
+        Object.keys(legum.perawatan).forEach(key => {
+            const label = key.replace(/([A-Z])/g, ' $1').trim();
+            response += `• ${label}: ${legum.perawatan[key]}\n`;
+        });
+    }
+    
+    response += `\n📋 *Cara Penggunaan:*\n`;
+    legum.penggunaan.forEach((item, idx) => {
+        response += `${idx + 1}. ${item}\n`;
+    });
+    
+    if (legum.batasPemberian) {
+        response += `\n⚠️ *Batas Pemberian:* ${legum.batasPemberian}`;
+    }
+    
+    response += `\n\n📅 *Rekomendasi Musim:* ${legum.rekomendasiMusim.join(', ')}`;
+    
+    response += `\n\nKetik *menu* untuk kembali`;
+    return response;
+}
+
+// Format kebutuhan nutrisi
+function getInfoKebutuhanNutrisi(jenisTernak) {
+    const data = nutrisiData.kebutuhanNutrisi[jenisTernak];
+    if (!data) return '🙏 Maaf, data kebutuhan nutrisi ini belum tersedia.';
+    
+    let response = `📊 *${data.nama.toUpperCase()}*\n\n`;
+    
+    data.kategori.forEach((kat, idx) => {
+        response += `━━━━━━━━━━━━━━━━━━━━━━━━\n`;
+        response += `*${idx + 1}. ${kat.fase}*\n\n`;
+        
+        Object.keys(kat.kebutuhan).forEach(key => {
+            const label = key.replace(/([A-Z])/g, ' $1').trim();
+            response += `• ${label}: ${kat.kebutuhan[key]}\n`;
+        });
+        
+        response += `\n💡 *Tips:* ${kat.tips}\n\n`;
+    });
+    
+    response += `Ketik *menu* untuk kembali`;
+    return response;
+}
+
+// Format tanda kekurangan nutrisi
+function getInfoTandaKekurangan(jenis) {
+    const jenisMap = {
+        '1': 'protein',
+        '2': 'energi',
+        '3': 'mineral',
+        '4': 'vitamin',
+        '5': 'air'
+    };
+    
+    const key = jenisMap[jenis];
+    const data = nutrisiData.tandaKekuranganNutrisi[key];
+    if (!data) return '🙏 Maaf, data ini belum tersedia.';
+    
+    let response = `⚠️ *${data.nama.toUpperCase()}*\n\n`;
+    
+    response += `🔍 *Tanda-Tanda:*\n`;
+    data.tandaTanda.forEach((item, idx) => {
+        response += `${idx + 1}. ${item}\n`;
+    });
+    
+    response += `\n✅ *Cara Mengatasi:*\n`;
+    data.solusi.forEach((item, idx) => {
+        response += `${idx + 1}. ${item}\n`;
+    });
+    
+    response += `\nKetik *menu* untuk kembali`;
+    return response;
+}
+
+// Format formulasi ransum
+function getInfoFormulasiRansum(pilihan) {
+    const data = nutrisiData.formulasiRansum;
+    let response = '';
+    
+    switch(pilihan) {
+        case '1':
+            response = `📋 *${data.prinsipDasar.judul.toUpperCase()}*\n\n`;
+            data.prinsipDasar.isi.forEach((item, idx) => {
+                response += `${idx + 1}. ${item}\n`;
+            });
+            break;
+        case '2':
+            const sapi = data.komposisiUmum.sapi;
+            response = `🐄 *KOMPOSISI RANSUM SAPI*\n\n`;
+            response += `🌾 Hijauan: *${sapi.hijauan}*\n`;
+            response += `🌽 Konsentrat: *${sapi.konsentrat}*\n\n`;
+            response += `📝 *Contoh Campuran:*\n${sapi.contoh}`;
+            break;
+        case '3':
+            const kambing = data.komposisiUmum.kambing;
+            response = `🐐 *KOMPOSISI RANSUM KAMBING*\n\n`;
+            response += `🌾 Hijauan: *${kambing.hijauan}*\n`;
+            response += `🌽 Konsentrat: *${kambing.konsentrat}*\n\n`;
+            response += `📝 *Contoh Campuran:*\n${kambing.contoh}`;
+            break;
+        case '4':
+            const ayam = data.komposisiUmum.ayam;
+            response = `🐔 *KOMPOSISI RANSUM AYAM*\n\n`;
+            response += `🌽 Jagung: *${ayam.jagung}*\n`;
+            response += `🌾 Bekatul: *${ayam.bekatul}*\n`;
+            response += `🫘 Bungkil Kedelai: *${ayam.bungkilKedelai}*\n`;
+            response += `➕ Lainnya: *${ayam.lainnya}*\n\n`;
+            response += `📝 *Contoh Campuran:*\n${ayam.contoh}`;
+            break;
+        case '5':
+            response = `📋 *LANGKAH-LANGKAH FORMULASI RANSUM*\n\n`;
+            data.langkahFormulasi.forEach(step => {
+                response += `*${step.step}. ${step.judul}*\n`;
+                response += `${step.detail}\n\n`;
+            });
+            break;
+        case '6':
+            response = `💰 *TIPS EKONOMIS PAKAN TERNAK*\n\n`;
+            data.tipsEkonomis.forEach((item, idx) => {
+                response += `${idx + 1}. ${item}\n`;
+            });
+            break;
+        default:
+            response = '🙏 Pilihan tidak tersedia.';
+    }
     
     response += `\n\nKetik *menu* untuk kembali`;
     return response;
@@ -603,6 +918,15 @@ async function handleMessage(text, userId) {
                 state.menu = 'tips';
                 return getMenuTips();
             case '7':
+                state.menu = 'kebutuhan_nutrisi';
+                return getMenuKebutuhanNutrisi();
+            case '8':
+                state.menu = 'tanda_kekurangan';
+                return getMenuTandaKekurangan();
+            case '9':
+                state.menu = 'formulasi_ransum';
+                return getMenuFormulasiRansum();
+            case '10':
                 state.menu = null;
                 return getFAQ();
             default:
@@ -616,14 +940,33 @@ async function handleMessage(text, userId) {
             state.submenu = 'rumput';
             return getMenuRumput();
         } else if (input === '2') {
+            state.submenu = 'leguminosa';
+            return getMenuLeguminosa();
+        } else if (input === '3') {
             state.submenu = 'limbah_pertanian';
             return getMenuLimbahPertanian();
-        } else if (input === '3') {
+        } else if (input === '4') {
             state.menu = null;
             state.submenu = null;
             return getInfoAmpasTahu();
+        } else if (input === '5') {
+            state.menu = null;
+            state.submenu = null;
+            return getInfoMaggot();
         }
         return '🙏 Pilihan tidak tersedia. ' + getMenuKategoriPakan();
+    }
+    
+    // Handler leguminosa
+    if (state.menu === 'jenis_pakan' && state.submenu === 'leguminosa') {
+        const legumMap = ['lamtoro', 'gamal', 'kaliandra'];
+        const idx = parseInt(input) - 1;
+        if (idx >= 0 && idx < legumMap.length) {
+            state.menu = null;
+            state.submenu = null;
+            return getInfoLeguminosa(legumMap[idx]);
+        }
+        return '🙏 Pilihan tidak tersedia. ' + getMenuLeguminosa();
     }
     
     // Handler rumput
@@ -734,6 +1077,35 @@ async function handleMessage(text, userId) {
         } else {
             return '🙏 Pilihan tidak tersedia. ' + getMenuTips();
         }
+    }
+    
+    // Handler kebutuhan nutrisi
+    if (state.menu === 'kebutuhan_nutrisi') {
+        const nutrisiMap = ['sapi', 'kambing', 'ayam'];
+        const idx = parseInt(input) - 1;
+        if (idx >= 0 && idx < nutrisiMap.length) {
+            state.menu = null;
+            return getInfoKebutuhanNutrisi(nutrisiMap[idx]);
+        }
+        return '🙏 Pilihan tidak tersedia. ' + getMenuKebutuhanNutrisi();
+    }
+    
+    // Handler tanda kekurangan nutrisi
+    if (state.menu === 'tanda_kekurangan') {
+        if (['1', '2', '3', '4', '5'].includes(input)) {
+            state.menu = null;
+            return getInfoTandaKekurangan(input);
+        }
+        return '🙏 Pilihan tidak tersedia. ' + getMenuTandaKekurangan();
+    }
+    
+    // Handler formulasi ransum
+    if (state.menu === 'formulasi_ransum') {
+        if (['1', '2', '3', '4', '5', '6'].includes(input)) {
+            state.menu = null;
+            return getInfoFormulasiRansum(input);
+        }
+        return '🙏 Pilihan tidak tersedia. ' + getMenuFormulasiRansum();
     }
     
     return `🙏 Maaf, saya belum paham maksud "${text}".\n\nSilakan pilih dari menu di bawah ini:\n\n` + getMainMenu();

@@ -1,0 +1,314 @@
+{
+  "kebutuhanNutrisi": {
+    "sapi": {
+      "nama": "Kebutuhan Nutrisi Sapi",
+      "kategori": [
+        {
+          "fase": "Sapi Perah Laktasi",
+          "kebutuhan": {
+            "bahanKering": "3-4% dari berat badan per hari",
+            "proteinKasar": "14-18%",
+            "TDN": "60-70%",
+            "seratKasar": "Minimal 17%",
+            "kalsium": "0.6-1.0%",
+            "fosfor": "0.3-0.5%"
+          },
+          "tips": "Tingkatkan protein dan energi untuk produksi susu optimal"
+        },
+        {
+          "fase": "Sapi Potong (Penggemukan)",
+          "kebutuhan": {
+            "bahanKering": "2.5-3% dari berat badan per hari",
+            "proteinKasar": "12-14%",
+            "TDN": "65-75%",
+            "seratKasar": "Minimal 15%",
+            "kalsium": "0.4-0.6%",
+            "fosfor": "0.25-0.4%"
+          },
+          "tips": "Fokus pada energi tinggi untuk pertambahan bobot badan"
+        },
+        {
+          "fase": "Sapi Bunting",
+          "kebutuhan": {
+            "bahanKering": "2-2.5% dari berat badan per hari",
+            "proteinKasar": "12-14%",
+            "TDN": "55-60%",
+            "seratKasar": "20-25%",
+            "kalsium": "0.4-0.6%",
+            "fosfor": "0.25-0.35%"
+          },
+          "tips": "Jaga kondisi tubuh, tidak terlalu gemuk atau kurus"
+        },
+        {
+          "fase": "Pedet (Anak Sapi)",
+          "kebutuhan": {
+            "bahanKering": "2-3% dari berat badan per hari",
+            "proteinKasar": "16-20%",
+            "TDN": "70-75%",
+            "seratKasar": "Minimal 12%",
+            "kalsium": "0.7-1.0%",
+            "fosfor": "0.4-0.6%"
+          },
+          "tips": "Berikan susu/pengganti susu + starter berkualitas"
+        }
+      ]
+    },
+    "kambing": {
+      "nama": "Kebutuhan Nutrisi Kambing",
+      "kategori": [
+        {
+          "fase": "Kambing Dewasa (Pemeliharaan)",
+          "kebutuhan": {
+            "bahanKering": "3-4% dari berat badan per hari",
+            "proteinKasar": "10-12%",
+            "TDN": "55-60%",
+            "seratKasar": "20-25%",
+            "kalsium": "0.3-0.5%",
+            "fosfor": "0.2-0.3%"
+          },
+          "tips": "Pakan hijauan berkualitas sudah cukup"
+        },
+        {
+          "fase": "Kambing Bunting",
+          "kebutuhan": {
+            "bahanKering": "3.5-4.5% dari berat badan per hari",
+            "proteinKasar": "12-14%",
+            "TDN": "60-65%",
+            "seratKasar": "18-22%",
+            "kalsium": "0.5-0.7%",
+            "fosfor": "0.3-0.4%"
+          },
+          "tips": "Tambah konsentrat di trimester akhir"
+        },
+        {
+          "fase": "Kambing Menyusui",
+          "kebutuhan": {
+            "bahanKering": "4-5% dari berat badan per hari",
+            "proteinKasar": "14-16%",
+            "TDN": "65-70%",
+            "seratKasar": "16-20%",
+            "kalsium": "0.6-0.8%",
+            "fosfor": "0.35-0.45%"
+          },
+          "tips": "Tingkatkan energi dan protein untuk produksi susu"
+        },
+        {
+          "fase": "Cempe (Anak Kambing)",
+          "kebutuhan": {
+            "bahanKering": "4-5% dari berat badan per hari",
+            "proteinKasar": "16-18%",
+            "TDN": "70-75%",
+            "seratKasar": "Minimal 15%",
+            "kalsium": "0.6-0.8%",
+            "fosfor": "0.4-0.5%"
+          },
+          "tips": "Berikan susu induk + starter + hijauan muda"
+        }
+      ]
+    },
+    "ayam": {
+      "nama": "Kebutuhan Nutrisi Ayam",
+      "kategori": [
+        {
+          "fase": "Ayam Pedaging Starter (0-3 minggu)",
+          "kebutuhan": {
+            "proteinKasar": "22-24%",
+            "energiMetabolis": "3000-3100 kkal/kg",
+            "kalsium": "0.9-1.0%",
+            "fosfor": "0.45-0.5%",
+            "lisin": "1.1-1.3%",
+            "metionin": "0.5-0.55%"
+          },
+          "tips": "Pakan berkualitas tinggi untuk pertumbuhan awal"
+        },
+        {
+          "fase": "Ayam Pedaging Grower (3-5 minggu)",
+          "kebutuhan": {
+            "proteinKasar": "20-22%",
+            "energiMetabolis": "3100-3200 kkal/kg",
+            "kalsium": "0.8-0.9%",
+            "fosfor": "0.4-0.45%",
+            "lisin": "1.0-1.1%",
+            "metionin": "0.45-0.5%"
+          },
+          "tips": "Transisi ke pakan grower secara bertahap"
+        },
+        {
+          "fase": "Ayam Pedaging Finisher (5+ minggu)",
+          "kebutuhan": {
+            "proteinKasar": "18-20%",
+            "energiMetabolis": "3200-3300 kkal/kg",
+            "kalsium": "0.7-0.8%",
+            "fosfor": "0.35-0.4%",
+            "lisin": "0.9-1.0%",
+            "metionin": "0.4-0.45%"
+          },
+          "tips": "Fokus pada energi untuk finishing"
+        },
+        {
+          "fase": "Ayam Petelur (Layer)",
+          "kebutuhan": {
+            "proteinKasar": "16-18%",
+            "energiMetabolis": "2700-2900 kkal/kg",
+            "kalsium": "3.5-4.0%",
+            "fosfor": "0.35-0.45%",
+            "lisin": "0.75-0.85%",
+            "metionin": "0.35-0.4%"
+          },
+          "tips": "Kalsium tinggi penting untuk kualitas kerabang telur"
+        }
+      ]
+    }
+  },
+  "tandaKekuranganNutrisi": {
+    "protein": {
+      "nama": "Kekurangan Protein",
+      "tandaTanda": [
+        "Pertumbuhan terhambat/lambat",
+        "Bulu/rambut kasar dan kusam",
+        "Produksi susu/telur menurun",
+        "Nafsu makan berkurang",
+        "Daya tahan tubuh lemah",
+        "Perkembangan otot tidak optimal"
+      ],
+      "solusi": [
+        "Tambahkan leguminosa (lamtoro, gamal, kaliandra)",
+        "Berikan ampas tahu atau bungkil kedelai",
+        "Gunakan konsentrat berprotein tinggi",
+        "Kombinasikan dengan pakan sumber protein"
+      ]
+    },
+    "energi": {
+      "nama": "Kekurangan Energi",
+      "tandaTanda": [
+        "Berat badan turun atau tidak naik",
+        "Ternak terlihat lemas dan kurang aktif",
+        "Produksi susu/telur menurun drastis",
+        "Ternak kurus meski makan banyak",
+        "Siklus birahi tidak teratur",
+        "Suhu tubuh rendah (terutama saat dingin)"
+      ],
+      "solusi": [
+        "Tingkatkan pemberian dedak, jagung giling",
+        "Tambahkan molase/tetes tebu",
+        "Berikan konsentrat berenergi tinggi",
+        "Pastikan kualitas pakan baik dan tidak berjamur"
+      ]
+    },
+    "mineral": {
+      "nama": "Kekurangan Mineral",
+      "tandaTanda": [
+        "Tulang lemah atau bengkok (kekurangan Ca/P)",
+        "Sering menjilat tanah, dinding, atau benda lain",
+        "Kerabang telur tipis/lunak",
+        "Nafsu makan tidak menentu",
+        "Pertumbuhan lambat",
+        "Gangguan reproduksi"
+      ],
+      "solusi": [
+        "Sediakan mineral blok/jilatan",
+        "Tambahkan tepung tulang atau kapur",
+        "Berikan garam dapur secukupnya",
+        "Gunakan premix mineral vitamin"
+      ]
+    },
+    "vitamin": {
+      "nama": "Kekurangan Vitamin",
+      "tandaTanda": [
+        "Vitamin A: Mata berair, pertumbuhan lambat, kulit kering",
+        "Vitamin D: Tulang lunak, kaki bengkok, kerabang tipis",
+        "Vitamin E: Gangguan reproduksi, daging pucat",
+        "Vitamin B: Nafsu makan turun, gangguan saraf",
+        "Secara umum: Daya tahan tubuh lemah, sering sakit"
+      ],
+      "solusi": [
+        "Berikan hijauan segar berkualitas",
+        "Jemur ternak secukupnya (sumber vitamin D)",
+        "Tambahkan premix vitamin",
+        "Variasikan jenis pakan"
+      ]
+    },
+    "air": {
+      "nama": "Kekurangan Air",
+      "tandaTanda": [
+        "Kulit tidak elastis (dehidrasi)",
+        "Kotoran keras dan kering",
+        "Nafsu makan menurun drastis",
+        "Produksi susu turun tajam",
+        "Ternak terlihat lemas",
+        "Mata cekung"
+      ],
+      "solusi": [
+        "Sediakan air bersih ad libitum (sepuasnya)",
+        "Ganti air minum minimal 2x sehari",
+        "Pastikan tempat air mudah dijangkau",
+        "Tambah frekuensi pemberian air saat cuaca panas"
+      ]
+    }
+  },
+  "formulasiRansum": {
+    "prinsipDasar": {
+      "judul": "Prinsip Dasar Formulasi Ransum",
+      "isi": [
+        "Ransum harus memenuhi kebutuhan nutrisi ternak",
+        "Gunakan bahan pakan lokal yang tersedia",
+        "Pertimbangkan palatabilitas (kesukaan ternak)",
+        "Seimbangkan antara hijauan dan konsentrat",
+        "Perhatikan harga bahan pakan (ekonomis)"
+      ]
+    },
+    "komposisiUmum": {
+      "sapi": {
+        "hijauan": "60-70%",
+        "konsentrat": "30-40%",
+        "contoh": "Rumput 60% + Dedak 20% + Ampas Tahu 15% + Mineral 5%"
+      },
+      "kambing": {
+        "hijauan": "60-80%",
+        "konsentrat": "20-40%",
+        "contoh": "Daun-daunan 70% + Dedak 15% + Ampas Tahu 10% + Mineral 5%"
+      },
+      "ayam": {
+        "jagung": "45-55%",
+        "bekatul": "15-20%",
+        "bungkilKedelai": "20-25%",
+        "lainnya": "10-15%",
+        "contoh": "Jagung 50% + Bekatul 18% + Bungkil Kedelai 22% + Tepung Ikan 5% + Premix 5%"
+      }
+    },
+    "langkahFormulasi": [
+      {
+        "step": 1,
+        "judul": "Tentukan Jenis dan Fase Ternak",
+        "detail": "Identifikasi jenis ternak dan fase produksinya (pertumbuhan, bunting, laktasi, dll)"
+      },
+      {
+        "step": 2,
+        "judul": "Cari Tahu Kebutuhan Nutrisi",
+        "detail": "Lihat kebutuhan protein, energi, mineral, vitamin sesuai fase"
+      },
+      {
+        "step": 3,
+        "judul": "Inventarisasi Bahan Pakan",
+        "detail": "Catat bahan pakan yang tersedia dan kandungan nutrisinya"
+      },
+      {
+        "step": 4,
+        "judul": "Hitung Komposisi",
+        "detail": "Tentukan proporsi tiap bahan agar memenuhi kebutuhan nutrisi"
+      },
+      {
+        "step": 5,
+        "judul": "Uji Coba dan Evaluasi",
+        "detail": "Berikan ke ternak, amati respon, sesuaikan jika perlu"
+      }
+    ],
+    "tipsEkonomis": [
+      "Manfaatkan limbah pertanian lokal (jerami, ampas tahu)",
+      "Tanam sendiri leguminosa sebagai sumber protein murah",
+      "Buat silase saat hijauan melimpah",
+      "Beli bahan pakan saat harga murah",
+      "Bergabung dengan kelompok tani untuk pembelian bersama"
+    ]
+  }
+}

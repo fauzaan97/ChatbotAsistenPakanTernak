@@ -337,6 +337,111 @@
       "rekomendasiMusim": ["kemarau"]
     }
   },
+  "leguminosa": {
+    "lamtoro": {
+      "nama": "Lamtoro (Leucaena leucocephala)",
+      "deskripsi": "Tanaman legum berprotein tinggi yang sangat baik sebagai pakan tambahan ternak ruminansia",
+      "keunggulan": [
+        "Kandungan protein tinggi (20-30%)",
+        "Mudah tumbuh di berbagai kondisi lahan",
+        "Dapat dipangkas secara berkala",
+        "Meningkatkan kualitas ransum ternak",
+        "Dapat memperbaiki kesuburan tanah (fiksasi nitrogen)"
+      ],
+      "nutrisi": {
+        "proteinKasar": "20-30%",
+        "seratKasar": "15-25%",
+        "mineral": "Kaya kalsium dan fosfor",
+        "energi": "Baik sebagai sumber energi tambahan",
+        "catatan": "Mengandung mimosin yang perlu diperhatikan pemberiannya"
+      },
+      "penanaman": {
+        "metode": "Biji atau stek",
+        "jarak": "1-2 meter antar pohon",
+        "lokasi": "Pematang sawah, pinggir jalan, kebun"
+      },
+      "perawatan": {
+        "pemangkasan": "Setiap 2-3 bulan",
+        "pemupukan": "Tidak perlu banyak pupuk nitrogen"
+      },
+      "penggunaan": [
+        "Daun segar dicampur dengan rumput (maksimal 30% dari ransum)",
+        "Dapat dilayukan sebelum diberikan",
+        "Kombinasikan dengan pakan berserat tinggi",
+        "Batasi pemberian untuk hindari keracunan mimosin"
+      ],
+      "batasPemberian": "Maksimal 30% dari total ransum harian",
+      "rekomendasiMusim": ["hujan", "kemarau"]
+    },
+    "gamal": {
+      "nama": "Gamal (Gliricidia sepium)",
+      "deskripsi": "Tanaman legum serbaguna yang baik sebagai pakan ternak dan pagar hidup",
+      "keunggulan": [
+        "Protein tinggi (20-25%)",
+        "Mudah diperbanyak dengan stek",
+        "Tahan kekeringan",
+        "Dapat dipangkas berulang kali",
+        "Berfungsi sebagai pagar hidup"
+      ],
+      "nutrisi": {
+        "proteinKasar": "20-25%",
+        "seratKasar": "15-20%",
+        "kecernaan": "Baik untuk ternak ruminansia",
+        "mineral": "Kaya mineral penting"
+      },
+      "penanaman": {
+        "metode": "Stek batang (panjang 30-50 cm)",
+        "jarak": "50 cm - 1 meter",
+        "lokasi": "Pagar kebun, tepi lahan"
+      },
+      "perawatan": {
+        "pemangkasan": "Setiap 2-3 bulan",
+        "penyiraman": "Minimal, tahan kering"
+      },
+      "penggunaan": [
+        "Daun segar sebagai campuran pakan (20-30% ransum)",
+        "Layukan 1-2 hari untuk kurangi bau",
+        "Campur dengan rumput atau jerami",
+        "Dapat dibuat silase bersama hijauan lain"
+      ],
+      "batasPemberian": "Maksimal 30% dari total ransum harian",
+      "rekomendasiMusim": ["hujan", "kemarau"]
+    },
+    "kaliandra": {
+      "nama": "Kaliandra (Calliandra calothyrsus)",
+      "deskripsi": "Tanaman legum penghasil hijauan berkualitas tinggi untuk pakan ternak",
+      "keunggulan": [
+        "Protein sangat tinggi (22-28%)",
+        "Produksi biomassa tinggi",
+        "Tumbuh cepat",
+        "Tahan kondisi lahan marginal",
+        "Dapat dipanen berkali-kali"
+      ],
+      "nutrisi": {
+        "proteinKasar": "22-28%",
+        "seratKasar": "18-25%",
+        "tanin": "Mengandung tanin (perlu perhatian khusus)",
+        "energi": "Sumber energi yang baik"
+      },
+      "penanaman": {
+        "metode": "Biji (rendam air panas sebelum tanam)",
+        "jarak": "1-2 meter",
+        "lokasi": "Lahan miring, kebun, pematang"
+      },
+      "perawatan": {
+        "pemangkasan": "Setiap 2-4 bulan",
+        "pemupukan": "Minim karena dapat fiksasi nitrogen"
+      },
+      "penggunaan": [
+        "Daun segar dicampur pakan lain (maks 20-25%)",
+        "Keringkan atau layukan untuk kurangi tanin",
+        "Kombinasi dengan pakan rendah protein",
+        "Cocok untuk sapi dan kambing"
+      ],
+      "batasPemberian": "Maksimal 25% dari total ransum (karena kandungan tanin)",
+      "rekomendasiMusim": ["hujan", "kemarau"]
+    }
+  },
   "limbahPadat": {
     "ampasTahu": {
       "nama": "Ampas Tahu (Okara)",
@@ -364,6 +469,55 @@
         "Campur dengan sumber pakan lain dalam ransum untuk tambah protein",
         "Proses fermentasi/pengeringan sangat dianjurkan (kadar air tinggi, rentan busuk)",
         "Kombinasi dengan pakan tambahan"
+      ],
+      "rekomendasiMusim": ["hujan", "kemarau"]
+    },
+    "maggot": {
+      "nama": "Maggot (Larva Black Soldier Fly / Hermetia illucens)",
+      "deskripsi": "Larva lalat tentara hitam (BSF) yang kaya protein dan dapat dibudidayakan dari limbah organik",
+      "keunggulan": [
+        "Kandungan protein sangat tinggi (40-50%)",
+        "Kandungan lemak tinggi sebagai sumber energi",
+        "Dapat dibudidayakan dari limbah organik rumah tangga",
+        "Ramah lingkungan (mengurangi sampah organik)",
+        "Biaya produksi rendah",
+        "Siklus hidup cepat (2-3 minggu)",
+        "Cocok untuk pakan unggas, ikan, dan ternak lain"
+      ],
+      "nutrisi": {
+        "proteinKasar": "40-50%",
+        "lemakKasar": "25-35%",
+        "kalsium": "5-8%",
+        "fosfor": "0.6-1.5%",
+        "asamAmino": "Lengkap, termasuk lisin dan metionin",
+        "energiMetabolis": "Tinggi (cocok untuk pertumbuhan)"
+      },
+      "budidaya": {
+        "media": "Limbah organik (sayur, buah busuk, ampas tahu, kotoran ternak)",
+        "wadah": "Bak plastik, ember besar, atau kandang khusus BSF",
+        "suhu": "Optimal 27-30°C",
+        "kelembaban": "60-70%",
+        "siklusHidup": "Telur menetas 3-4 hari, larva siap panen 14-21 hari",
+        "panenLarva": "Saat larva berwarna coklat kehitaman (prepupa)"
+      },
+      "pengolahan": [
+        "Pakan segar: langsung diberikan ke ternak (ayam, ikan, bebek)",
+        "Pengeringan: jemur atau oven untuk perpanjang masa simpan",
+        "Tepung maggot: giling kering untuk campuran ransum",
+        "Fermentasi: untuk meningkatkan kecernaan"
+      ],
+      "penggunaan": [
+        "Ayam: 10-20% dari total ransum (pengganti sebagian tepung ikan)",
+        "Bebek: 15-25% dari total ransum",
+        "Ikan: 20-30% dari total ransum",
+        "Burung puyuh: 10-15% dari total ransum",
+        "Dapat dicampur dengan dedak, jagung, dan bahan lain"
+      ],
+      "manfaatLingkungan": [
+        "Mengolah limbah organik menjadi pakan bernutrisi",
+        "Mengurangi volume sampah hingga 50-70%",
+        "Tidak menimbulkan bau seperti lalat biasa",
+        "Larva BSF tidak menyebarkan penyakit"
       ],
       "rekomendasiMusim": ["hujan", "kemarau"]
     }
